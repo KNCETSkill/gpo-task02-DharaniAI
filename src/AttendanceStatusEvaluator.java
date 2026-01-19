@@ -1,10 +1,10 @@
-import java.util.Scanner;
+import java.util.*;
 class AttendanceStatusEvaluator{
   public Static void main(String[]args)
   {
     Scanner s= new Scanner(System.in);
     int Attendance =s.nextInt();
-    if( Attendance>85)
+    if(Attendance>85)
     {
       System.out.println("Excellent");
     }
