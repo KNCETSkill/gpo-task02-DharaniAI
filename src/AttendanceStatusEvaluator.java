@@ -15,6 +15,4 @@ class AttendanceStatusEvaluator{
     else if(Attendance<60)
     {
       System.out.println("Poor");
-    }
-  }}
-
+    }}}
